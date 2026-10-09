@@ -57,7 +57,7 @@ def animate (i):
     times.append(s0.time)               
     velocity.append(s0.xvel)              
     ax2.clear()                          
-    ax2.plot(times, velocity, color='m')     
+    ax2.plot(times, velocity, color='r')     
     ax2.set_xlim(0,15)                  
     ax2.set_ylim(0,60)                  
     ax2.set_xlabel("time(s)")            
